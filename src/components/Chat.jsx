@@ -93,7 +93,7 @@ export default function Chat() {
           <MessageList
             scrollBehavior='smooth'
             typingIndicator={
-              typing ? <TypingIndicator content='ChatGPT is typing' /> : null
+              typing ? <TypingIndicator content='TravelBot is typing' /> : null
             }
           >
             {messages.map((message, i) => {
